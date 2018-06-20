@@ -1,0 +1,7 @@
+{
+  "name": "@cfn-modules/alerting",
+  "version": "0.0.3",
+  "description": "Central SNS topic that receives alerts from other modules and forwards them to your team via email, HTTP, or HTTPS",
+  "author": "Michael Wittig <michael@widdix.de>",
+  "license": "Apache-2.0"
+}
