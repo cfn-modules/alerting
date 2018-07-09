@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/cfn-modules/alerting.svg?branch=master)](https://travis-ci.org/cfn-modules/alerting)
+
 # cfn-modules: Alerting
 
 Central SNS topic that receives alerts from other [modules](https://www.npmjs.com/org/cfn-modules) and forwards them to your team via email, HTTP, or HTTPS.
