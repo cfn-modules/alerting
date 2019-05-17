@@ -40,7 +40,7 @@ Resources:
 * [ec2-postgres](https://github.com/cfn-modules/docs/tree/master/examples/ec2-postgres)
 * [ec2-ssh-bastion](https://github.com/cfn-modules/docs/tree/master/examples/ec2-ssh-bastion)
 * [ec2-ssm](https://github.com/cfn-modules/docs/tree/master/examples/ec2-ssm)
-* [fargate-alb-ambassador-pattern](https://github.com/cfn-modules/docs/tree/master/examples/fargate-alb-ambassador-pattern)
+* [fargate-alb-proxy-pattern](https://github.com/cfn-modules/docs/tree/master/examples/fargate-alb-proxy-pattern)
 * [fargate-alb-single-container](https://github.com/cfn-modules/docs/tree/master/examples/fargate-alb-single-container)
 * [serverless-cron](https://github.com/cfn-modules/docs/tree/master/examples/serverless-cron)
 * [serverless-iam](https://github.com/cfn-modules/docs/tree/master/examples/serverless-iam)
