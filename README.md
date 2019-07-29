@@ -99,7 +99,7 @@ I add links to AWS Management Console that are relevant to an incident. Contextu
     </tr>
     <tr>
       <td>HttpsEndpoint</td>
-      <td>HTTPS endpoint that will receive alerts via POST requests (e.g., a <a href="https://marbot.io/?utm_source=cfn-modules&utm_medium=doc&utm_campaign=alerting">marbot.io endpoint for easy-going incident management</a>)</td>
+      <td>HTTPS endpoint that will receive alerts via POST requests (e.g., a <a href="https://marbot.io/?utm_source=cfn-modules&utm_medium=doc&utm_campaign=alerting">marbot.io endpoint for incident management in Slack</a>)</td>
       <td></td>
       <td>no</td>
       <td></td>
