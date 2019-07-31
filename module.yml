@@ -56,6 +56,7 @@ Resources:
             - 'budgets.amazonaws.com' # Allow Budget Notifications
             - 'rds.amazonaws.com' # Allow RDS Events
             - 's3.amazonaws.com' # Allow S3 Event Notifications
+            - 'backup.amazonaws.com' # Allow Backup Events
           Action: 'sns:Publish'
           Resource: !Ref Topic
         - Sid: Sid2
@@ -147,7 +148,7 @@ Outputs:
   ModuleId:
     Value: 'alerting'
   ModuleVersion:
-    Value: '1.0.1'
+    Value: '1.1.0'
   StackName:
     Value: !Ref 'AWS::StackName'
   Arn:
