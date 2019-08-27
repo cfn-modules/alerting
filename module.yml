@@ -98,6 +98,7 @@ Resources:
       Dimensions:
       - Name: TopicName
         Value: !GetAtt Topic.TopicName
+      TreatMissingData: notBreaching
   EmailSubscription:
     Condition: HasEmail
     Type: 'AWS::SNS::Subscription'
@@ -148,7 +149,7 @@ Outputs:
   ModuleId:
     Value: 'alerting'
   ModuleVersion:
-    Value: '1.1.0'
+    Value: '1.2.0'
   StackName:
     Value: !Ref 'AWS::StackName'
   Arn:
