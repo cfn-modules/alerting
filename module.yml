@@ -25,7 +25,7 @@ Parameters:
     Type: String
     Default: ''
   HttpsEndpoint:
-    Description: 'Optional HTTPS endpoint that will receive alerts via POST requests (e.g., a marbot.io endpoint for incident management in Slack)'
+    Description: 'Optional HTTPS endpoint that will receive alerts via POST requests (e.g., marbot.io - a chatbot for AWS monitoring in Slack and Microsoft Teams)'
     Type: String
     Default: ''
   FallbackEmail:
