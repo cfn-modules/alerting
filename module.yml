@@ -117,6 +117,8 @@ Resources:
           numRetries: 100
           numNoDelayRetries: 0
           backoffFunction: exponential
+        throttlePolicy:
+          maxReceivesPerSecond: 1
       Endpoint: !Ref HttpEndpoint
       Protocol: http
       TopicArn: !Ref Topic
@@ -131,6 +133,8 @@ Resources:
           numRetries: 100
           numNoDelayRetries: 0
           backoffFunction: exponential
+        throttlePolicy:
+          maxReceivesPerSecond: 1
       Endpoint: !Ref HttpsEndpoint
       Protocol: https
       TopicArn: !Ref Topic
@@ -145,7 +149,7 @@ Outputs:
   ModuleId:
     Value: 'alerting'
   ModuleVersion:
-    Value: '1.2.1'
+    Value: '1.2.2'
   StackName:
     Value: !Ref 'AWS::StackName'
   Arn:
